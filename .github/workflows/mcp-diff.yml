@@ -50,7 +50,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Run MCP Server Diff
-        uses: SamMorrowDrums/mcp-server-diff@v2.3.5
+        uses: SamMorrowDrums/mcp-server-diff@v3.0.0
         with:
           setup_go: "false"
           install_command: |
@@ -114,7 +114,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Run MCP Server Diff (streamable-http)
-        uses: SamMorrowDrums/mcp-server-diff@v2.3.5
+        uses: SamMorrowDrums/mcp-server-diff@v3.0.0
         with:
           setup_go: "false"
           install_command: |
